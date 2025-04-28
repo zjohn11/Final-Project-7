@@ -1,8 +1,5 @@
 import numpy as np
-from sklearn.metrics import accuracy_score, classification_report
-import torch
-from datasets import load_dataset
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, Trainer, TrainingArguments, DataCollatorWithPadding
+from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 # loading the bert-tiny model and tokenizer
 tokenizer = AutoTokenizer.from_pretrained("prajjwal1/bert-tiny")
