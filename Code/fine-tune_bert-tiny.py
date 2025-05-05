@@ -43,9 +43,6 @@ dataset = dataset.shuffle(seed=42)
 train_data = dataset["train"]
 test_data = dataset["test"]
 
-# Take 80% of the original train data for training
-train_data = train_data.shuffle(seed=42).select(range(int(0.8 * len(train_data))))
-
 # Take 50% of the original test data and concatenate it with the train data
 half_test_data = test_data.shuffle(seed=42).select(range(int(0.5 * len(test_data))))
 
