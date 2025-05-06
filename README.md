@@ -11,3 +11,4 @@ Format
 Within Code
   - fine-tune_bert-tiny.py is the python script fine-tuning BERT-Tiny for sentiment analysis
   - bert-tiny_broken-down.py is the python script with BERT-Tiny built from scratch
+  - bert-tiny_sentiment-analysis.zip is the best model weights zipped
